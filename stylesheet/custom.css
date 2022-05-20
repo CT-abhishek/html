@@ -1,0 +1,70 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap'); */
+
+body{
+   
+    font-size: 20px;
+    background: #F9F3EE;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 23%;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    height: 500px; 
+    line-height: 200px;
+    text-align: center;
+}
+.apple{
+    width: 50%;
+    background-image: url(custom.css);
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 45rem;
+    margin-top: -27rem;
+    z-index: -1;
+    position: absolute;
+
+}
+
+
+.card{
+    font-size: 20px;
+    border:1px solid #000000;
+    background-color: #EB5353;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+
+}
+.card:hover{
+    background-color: #f5f5f5;
+    transition: 0.2s ease-in;
+
+}
+
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 40%;
+    margin-top: 10rem;
+    margin-right: 40rem;
+    padding: 10px;
+}
+.text{
+    font-family: 'Koulen', cursive;
+    font-size: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #000000;
+}
